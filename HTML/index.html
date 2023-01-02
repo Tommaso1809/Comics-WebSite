@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyComics</title>
+    <link rel="stylesheet" href="../stile.css">
+    <link rel="shortcut icon" href="../IMMAGINI/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+
+    <script>
+
+      var cnt=0;
+
+
+      function count(){
+
+        cnt=cnt+1;
+
+    		document.getElementById('span').innerHTML = cnt;
+
+      }
+
+    </script>
+
+
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <div class="logo"><a href="index.html"  draggable="false" style="text-decoration:none;"><h1 style="font-size:30px; ">My Comics</h1></a></div>
+      <ul class="menu">
+
+          <li><a href="index.html" class="active" draggable="false" >Home</a></li>
+          <li><a href="2Pagina.html" draggable="false" >Prossime Uscite</a></li>
+          <li><a href="3Pagina.html" draggable="false" >Catalogo</a></li>
+          <li><a href="4Pagina.html" draggable="false" >News</a></li>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+           <li><a href="#" draggable="false" <i class="fas fa-shopping-cart"></i></a></li>
+		       <li>
+            <p id="span" style="color:black; font-size:20px; text-align:center;"><strong>0</strong></p>
+          </li>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+
+          <button type="button"  id="button1" onclick="document.getElementById('id01').style.display='block'" style="width:auto; border:0px;"><li><a href="#" draggable="false" <i class="fa-solid fa-user"></i></a></li></button>
+
+      </ul>
+
+
+    </nav>
+
+    <div class="content" >
+      <a href="3Pagina.html" draggable="false" ><img class="mySlides" src="../IMMAGINI/im1.jpg" style="width:100%" draggable="false" ></a>
+      <a href="3Pagina.html" draggable="false" ><img class="mySlides" src="../IMMAGINI/im2.jpg" style="width:100%" draggable="false" ></a>
+      <a href="3Pagina.html" draggable="false" ><img class="mySlides" src="../IMMAGINI/im3.jpg" style="width:100%" draggable="false" ></a>
+	    <a href="3Pagina.html" draggable="false" ><img class="mySlides" src="../IMMAGINI/im4.jpeg" style="width:100%" draggable="false" ></a>
+    </div>
+
+	<script src="../script.js"></script>
+
+	<center>
+		<hr width="70%" color="#424144"/>
+	</center>
+
+      <a href="2Pagina.html" draggable="false"  style="text-decoration:none;"><h1 class="pheading" style="font-family:'Bebas Neue';font-size:70px;">Ultime Uscite</h1></a>
+
+      <section class="sec">
+
+        <div class="products">
+           <div class="card">
+           <div class="img"><img src="../IMMAGINI/news5.jpeg" alt="" draggable="false"></div>
+           <div class="desc">Ragazzi</div>
+           <div class="title"><p>Dragon Ball vol. 08</p></div>
+           <div class="box">
+             <div class="price">15.00€</div>
+             <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+           </div>
+
+         </div>
+		   <div class="card">
+            <div class="img"><img src="../IMMAGINI/news2.jpeg" alt="" draggable="false"></div>
+            <div class="desc">Ragazzi e Ragazze</div>
+            <div class="title"><p> Decagon House Murders</p></div>
+            <div class="box">
+              <div class="price">6.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+
+          </div>
+
+		  <div class="card">
+            <div class="img"><img src="../IMMAGINI/news3.jpeg" alt="" draggable="false" ></div>
+            <div class="desc">Ragazze</div>
+            <div class="title"><p>La Zona Fantasma</p></div>
+            <div class="box">
+              <div class="price">15.00€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+         </div>
+
+
+      </section>
+
+
+
+
+      <center>
+        <hr width="70%" color="#424144"/>
+      </center>
+
+      <a href="4Pagina.html" draggable="false"  style="text-decoration:none;"><h1 class="pheading" style="font-family:'Bebas Neue';font-size:70px;">Eventi</h1></a>
+
+      <center>
+        <tr>
+          <td><a href="4Pagina.html" draggable="false" ><img src = "../IMMAGINI/notizia1.jpeg" width="45%" height="auto" style=" margin: 15px;border-radius:10px;" draggable="false" /></a></td>
+          <td><a href="4Pagina.html" draggable="false" ><img src = "../IMMAGINI/notizia2.jpeg" width="45%" height="auto" style="margin: 15px; border-radius:10px;" draggable="false" /></a></td>
+        </tr>
+
+        <tr>
+          <td><a href="4Pagina.html" draggable="false" ><img src = "../IMMAGINI/notizia3.jpeg" width="45%" height="auto" style=" margin: 15px;border-radius:10px;" draggable="false" /></a></td>
+          <td><a href="4Pagina.html" draggable="false" ><img src = "../IMMAGINI/notizia4.jpeg" width="45%" height="auto" style="margin: 15px; border-radius:10px;" draggable="false" /></a></td>
+        </tr>
+
+      </center>
+
+
+		<div id="id01" class="modal">
+
+  <form class="modal-content animate" action="welcome.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="../IMMAGINI/avatar.jpg" alt="Avatar" class="avatar" draggable="false" >
+    </div>
+
+    <div class="container">
+      <label for="name"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="name" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit" style="border-radius:20px; background-color:#f63e4e; border:0px; font-family:'Lato'; width:100px; height:35px;"><strong>Login</strong></button><br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me</input>
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"><strong>Cancel</strong></button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+
+	  <footer>
+
+			<p>Copyrights at <a href="" draggable="false" >MyComics</a></p>
+	  </footer>
+
+
+
+  </body>
+</html>

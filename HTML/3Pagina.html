@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link rel="stylesheet" href="../stile.css">
+    <link rel="shortcut icon" href="../IMMAGINI/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+
+	<script>
+
+      var cnt=0;
+
+
+      function count(){
+
+        cnt=cnt+1;
+
+    		document.getElementById('span').innerHTML = cnt;
+
+      }
+
+    </script>
+
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <div class="logo"><a href="index.html" draggable="false" style="text-decoration:none;"><h1 style="font-size:30px; ">My Comics</h1></a></div>
+      <ul class="menu">
+
+          <li><a href="index.html" class="active" draggable="false" >Home</a></li>
+          <li><a href="2Pagina.html" draggable="false" >Prossime Uscite</a></li>
+          <li><a href="3Pagina.html" draggable="false" >Catalogo</a></li>
+          <li><a href="4Pagina.html" draggable="false" >News</a></li>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+           <li><a href="" draggable="false"<i class="fas fa-shopping-cart"></i></a></li>
+
+		   <li>
+
+
+            <p id="span" style="color:black; font-size:20px; text-align:center;"><strong>0</strong></p>
+          </li>
+      </ul>
+
+      <div class="btn">
+        <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+
+
+    <center>
+      <br><br>
+      <h1 style=" font-family:'Bebas Neue';color:black; font-size:55px; border-radius:20px; text-shadow:2px 2px 4px black;">MANGA</h1>
+
+
+		<hr width="25%" color="#424144"/>
+		<br><br>
+
+      <section>
+
+        <div class="products">
+          <div class="cardCat" id="item1">
+            <div class="img"><img src="../IMMAGINI/manga4.jpeg" alt="" style="width:220px; height:auto;" draggable="false"></div>
+            <div class="desc">Ragazzi</div>
+            <div class="title"><p>Sanpei il Ragazzo Pescatore vol. 3</p></div>
+            <div class="box">
+
+              <div class="price">6.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+       <div class="cardCat">
+            <div class="img"><img src="../IMMAGINI/news2.jpeg" alt="" draggable="false" style="width:220px; height:auto;"></div>
+            <div class="desc">Ragazzi e Ragazze</div>
+            <div class="title"><p>Decagon House Murders </p></div>
+            <div class="box">
+              <div class="price">6.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+
+          </div>
+
+			<div class="cardCat">
+				<div class="img"><img src="../IMMAGINI/manga5.jpeg" alt="" draggable="false" style="width:220px; height:auto;"></div>
+				<div class="desc">Ragazze</div>
+				<div class="title"><p>La Zona Fantasma vol. 1</p></div>
+
+				<div class="box">
+				  <div class="price">15.00€</div>
+				  <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+				</div>
+			</div>
+
+			 <div class="cardCat">
+            <div class="img"><img src="../IMMAGINI/manga1.jpeg" alt="" draggable="false"></div>
+            <div class="desc">Ragazzi e Ragazze</div>
+            <div class="title"><p>I Cavalieri Dello Zodiaco vol. 2 </p></div>
+            <div class="box">
+              <div class="price">6.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+
+			</div>
+
+			 <div class="cardCat">
+            <div class="img"><img src="../IMMAGINI/manga2.jpeg" alt="" draggable="false"></div>
+            <div class="desc">Ragazzi</div>
+            <div class="title"><p>Ayakashi Triangle </p></div>
+            <div class="box">
+              <div class="price">5.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+
+			</div>
+
+			 <div class="cardCat">
+			 <br>
+            <div class="img"><img src="../IMMAGINI/manga6.jpeg" alt="" draggable="false"></div>
+            <div class="desc">Ragazzi</div>
+            <div class="title"><p>Rouroni Kenshin vol. 5</p></div>
+            <div class="box">
+              <div class="price">6.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+
+			</div>
+
+
+			 <div class="cardCat">
+			 <br>
+            <div class="img"><img src="../IMMAGINI/manga7.jpg" alt="" draggable="false"></div>
+            <div class="desc">Ragazzi</div>
+            <div class="title"><p>Berserk Delux Edition</p></div>
+            <div class="box">
+              <div class="price">49.99€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+
+			</div>
+
+         </div>
+
+	</center>
+
+	<center>
+
+      </section>
+
+      <br><br>
+      <h1 style="font-family:'Bebas Neue';color:black; font-size:55px; border-radius:20px; text-shadow:2px 2px 4px black;">FUMETTI</h1>
+
+
+		<hr width="25%" color="#424144"/>
+		<br><br>
+
+      <section>
+
+        <div class="products">
+          <div class="cardCat" id="item1">
+            <div class="img"><img src="../IMMAGINI/comics1.jpg" alt="" draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazzi</div>
+            <div class="title"><p>L'Invincibile Omnibus vol. 07</p></div>
+            <div class="box">
+
+              <div class="price">6.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+       <div class="cardCat">
+            <div class="img"><img src="../IMMAGINI/comics2.jpg" alt="" draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazzi</div>
+            <div class="title"><p>The Amazing SpiderMan </p></div>
+            <div class="box">
+              <div class="price">6.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+
+          </div>
+
+		<div class="cardCat">
+            <div class="img"><img src="../IMMAGINI/comics3.jpg" alt="" draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazze</div>
+            <div class="title"><p>Capitan America vol. 05 </p></div>
+            <div class="box">
+              <div class="price">4.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+
+			<div class="cardCat">
+            <div class="img"><img src="../IMMAGINI/comics4.jpg" alt="" draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazze</div>
+            <div class="title"><p>L'Invincibile Iron Man vol. 13</p></div>
+            <div class="box">
+              <div class="price">7.50€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+
+
+		  <div class="cardCat">
+            <div class="img"><img src="../IMMAGINI/comics5.jpg" alt="" draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazze</div>
+            <div class="title"><p>Onslaught – Volume Unico</p></div>
+            <div class="box">
+              <div class="price">90.25€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+
+
+		  <div class="cardCat">
+            <div class="img"><img src="../IMMAGINI/comics6.jpg" alt="" draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazze</div>
+            <div class="title"><p> BatMan & Robin volume Unico</p></div>
+            <div class="box">
+              <div class="price">25.65€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+
+          </div>
+
+      </section>
+
+
+    </center>
+
+
+    <center>
+
+
+      <br><br>
+      <h1 style=" font-family:'Bebas Neue';color:black; font-size:55px; border-radius:20px; text-shadow:2px 2px 4px black;">FUNKO</h1>
+
+
+		<hr width="25%" color="#424144"/>
+		<br><br>
+
+
+
+        <section>
+
+             <div class="products">
+          <div class="cardFunko" id="item1">
+            <div class="img"><img src="../IMMAGINI/funko1.jpg" alt="" draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazzi</div>
+            <div class="title"><p>No Way Home - Spider-Man</p></div>
+            <div class="box">
+
+              <div class="price">19.99€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+       <div class="cardFunko">
+            <div class="img"><img src="../IMMAGINI/funko2.jpg" alt="" draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazzi</div>
+            <div class="title"><p>Rocky 45th- Rocky Balboa </p></div>
+            <div class="box">
+              <div class="price">19.99€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+
+          </div>
+
+		<div class="cardFunko">
+
+            <div class="img"><img src="../IMMAGINI/funko3.jpg" alt="" draggable="false"  style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazze</div>
+            <div class="title"><p>Harry Potter Classico 09</p></div>
+            <div class="box">
+              <div class="price">15.90€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+
+			<div class="cardFunko">
+            <div class="img"><img src="../IMMAGINI/funko4.jpg" alt=" "  draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazze</div>
+            <div class="title"><p>Jhon Lennon <br>246</p></div>
+            <div class="box">
+              <div class="price">17.50€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+
+
+		  <div class="cardFunko">
+            <div class="img"><img src="../IMMAGINI/funko5.jpg" alt=" " draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazze</div>
+            <div class="title"><p>Queen- Freddie Mercury 184</p></div>
+            <div class="box">
+              <div class="price">17.50€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+
+
+		  <div class="cardFunko">
+            <div class="img"><img src="../IMMAGINI/funko6.jpg" alt="" draggable="false" style="width:225px; height:300px;"></div>
+            <div class="desc">Ragazze</div>
+            <div class="title"><p>Star Wars- Kylo Ren 308</p></div>
+            <div class="box">
+              <div class="price">19.99€</div>
+              <button class="btn_b" onclick="count()">Aggiungi al Carrello</button>
+            </div>
+          </div>
+
+          </div>
+
+
+
+        </section>
+
+
+    </center>
+
+
+
+    <footer>
+
+      <p>Copyrights at <a href="" draggable="false">MyComics</a></p>
+    </footer>
+
+  </body>
+</html>
